@@ -63,7 +63,7 @@ This repository contains two complementary Jupyter notebooks that demonstrate a 
 
 ---
 
-## 📈 Dataset Files
+## Dataset Files
 
 The repository includes the necessary dataset files for both projects:
 - **`dataset.xlsx`** - Primary dataset for the exploration assignment
@@ -71,7 +71,7 @@ The repository includes the necessary dataset files for both projects:
 
 ---
 
-## 🛠️ Skills Demonstrated
+## Skills Demonstrated
 
 ### **Technical Skills**
 - **Data Manipulation:** Pandas, NumPy
@@ -89,6 +89,6 @@ The repository includes the necessary dataset files for both projects:
 
 ---
 
-### **Prerequisites**
+## **Prerequisites**
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
