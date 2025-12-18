@@ -1,61 +1,94 @@
-Loan Default Prediction - Machine Learning Project
-📊 Overview
-A comprehensive data science project demonstrating the full machine learning lifecycle for predicting loan defaults. The project consists of two sequential assignments: data exploration/preprocessing followed by predictive modeling.
+# Data Science Portfolio: Loan Default Analysis
 
-What I Built
-Assignment 2: Complete exploratory data analysis and preprocessing pipeline for a loan dataset
+## Repository Overview
 
-Assignment 3: Multi-model classification system for predicting loan default risk with Kaggle competition submission
+This repository contains two complementary Jupyter notebooks that demonstrate a complete **data science workflow** for financial risk analysis:
 
-Technical Skills
-Languages: Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+1. **`data_preprocessing.ipynb`** - Data Exploration & Preprocessing Assignment
+2. **`prediction_classifiers.ipynb`** - Machine Learning Classification Project
 
-Data Engineering: Data cleaning, feature engineering, missing value handling, outlier detection
+## Project Structure
 
-Machine Learning: Decision Trees, Random Forest, KNN, SVM, Neural Networks
+### **1. Data Exploration & Preprocessing**
+**File:** `data_preprocessing.ipynb`
 
-Model Evaluation: Accuracy, Precision, Recall, F1-score, ROC-AUC, Cross-validation
+**Objective:** Comprehensive exploratory data analysis (EDA) and data preparation on loan data.
 
-Tools: Jupyter Notebook, Google Colab, Kaggle Platform
+**Key Components:**
+- Attribute type identification (nominal, ordinal, interval, ratio)
+- Statistical summaries and distribution analysis
+- Missing value assessment and impact analysis
+- Data visualization with histograms and boxplots
+- Preprocessing techniques:
+  - Binning (equi-width, equi-depth)
+  - Normalization (min-max, z-score)
+  - Discretization for risk scoring
+  - Categorical binarization
 
-Key Features
-End-to-End Workflow: From raw data exploration to production-ready predictions
+**Technical Stack:**
+- Python, Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn for preprocessing
 
-Multi-Model Comparison: Systematic evaluation of 5+ classification algorithms
+---
 
-Imbalance Handling: Specialized techniques for skewed financial data
+### **2. Machine Learning Classification**
+**File:** `prediction_classifiers.ipynb`
 
-Professional Pipeline: Modular, reproducible code with clear documentation
+**Objective:** Build and optimize machine learning models to predict loan default risk.
 
-Outcomes
-Demonstrated complete CRISP-DM workflow implementation
+**Dataset:**
+- Training: 48,962 samples × 19 features
+- Testing: 20,984 samples × 18 features
+- Target: `loan_default` (0=No Default, 1=Default)
+- Class distribution: ~78% non-default, ~22% default
 
-Built predictive models for financial risk assessment
+**Classification Algorithms Implemented:**
+1. Decision Tree Classifier
+2. K-Nearest Neighbors (KNN)
+3. Random Forest Classifier
+4. Support Vector Machine (SVM)
+5. Multi-layer Perceptron (Neural Network)
 
-Participated in Kaggle competition with formatted submissions
+**Machine Learning Pipeline:**
+1. **Data Preprocessing:** Missing value handling, feature correlation analysis
+2. **Model Development:** 5 algorithms with hyperparameter tuning
+3. **Model Evaluation:** Accuracy, F1-score, Precision, Recall, ROC-AUC
+4. **Prediction:** Test set predictions and submission formatting
 
-Showcased ability to handle real-world, imbalanced datasets
+**Technical Stack:**
+- Core: Pandas, NumPy
+- Visualization: Matplotlib, Seaborn
+- Machine Learning: Scikit-learn, Imbalanced-learn
 
-Quick Start
-bash
-# Install requirements
-pip install pandas numpy scikit-learn matplotlib seaborn
+---
 
-# Run notebooks sequentially:
-# 1. Assignment 2: Data exploration and preprocessing
-# 2. Assignment 3: Model building and evaluation
-Context
-Course: Introduction to Data Analytics
-Institution: University of Technology Sydney
-Purpose: Academic project demonstrating professional data science capabilities
+## 📈 Dataset Files
 
-Professional Relevance
-This project showcases skills applicable to:
+The repository includes the necessary dataset files for both projects:
+- **`dataset.xlsx`** - Primary dataset for the exploration assignment
+- Additional training/testing datasets for the ML classification project
 
-Data Science & Machine Learning roles
+---
 
-Financial technology and risk assessment
+## 🛠️ Skills Demonstrated
 
-Predictive analytics and business intelligence
+### **Technical Skills**
+- **Data Manipulation:** Pandas, NumPy
+- **Data Visualization:** Matplotlib, Seaborn
+- **Machine Learning:** Scikit-learn (classification, preprocessing)
+- **Statistical Analysis:** Distribution analysis, correlation studies
+- **Feature Engineering:** Binning, normalization, discretization
 
-End-to-end model development and deployment
+### **Data Science Workflow**
+1. Exploratory Data Analysis (EDA)
+2. Data Cleaning and Preprocessing
+3. Feature Engineering
+4. Model Development and Evaluation
+5. Results Interpretation and Reporting
+
+---
+
+### **Prerequisites**
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
