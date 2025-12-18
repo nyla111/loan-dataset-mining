@@ -67,7 +67,8 @@ This repository contains two complementary Jupyter notebooks that demonstrate a 
 
 The repository includes the necessary dataset files for both projects:
 - **`dataset.xlsx`** - Primary dataset for the exploration assignment
-- Additional training/testing datasets for the ML classification project
+- **`train_dataset.csv`** - Additional training dataset for the ML classification project
+- **`test_dataset.csv`** - Additional testing dataset for the ML classification project
 
 ---
 
